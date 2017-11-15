@@ -11,8 +11,8 @@ function yourAnimal() {
 
 function add2(n) {
   let nInner=`${n}`
-  let nInt=parseInt()
-  return n+two
+  let nInt=parseInt(nInner,10)
+  return nInt+two
   const two = 2
 }
 
